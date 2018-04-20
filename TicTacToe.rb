@@ -105,7 +105,7 @@ end
 
 #DECLARATION DE LA CLASSE Player INITIALISEE AVEC LES PARAMETRES nom POUR LE NOM DU JOUEUR ET arme POUR LA CROIX OU LE CERCLE .
 class Player 
-	attr_accessor :nom, :value
+	attr_accessor :nom, :arme
 
 	def initialize(nom)
 		@nom = nom
